@@ -1,0 +1,106 @@
+.shop .label
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(206, 21, 21);
+    height: 22vh;
+    width: 30vh;
+    margin-left: 20vh;
+    border-radius: 10px;
+    
+}
+.shop .shed .today
+{
+    color:green ;
+}
+.header
+{
+    display: flex;
+    margin-left: 8vh;
+}
+
+.shops
+{
+    padding-bottom: 5vh;
+}
+
+
+.shop .backgroundImg
+{
+    padding-top:15px;
+}
+.shop .sched
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(206, 21, 21);
+    width: fit-content;
+   height: fit-content;
+   margin-top: 4vh;
+   margin-right: 30vh;
+    border-radius: 10px;
+    
+}
+.products
+{
+    margin-top: 5vh;
+    display:flex ;
+   
+    justify-content: space-evenly;
+    
+    
+}
+.product
+{
+    border-radius: 10px;
+}
+
+.product .productImg
+{
+    background-image: url("../../../img/taco.jpg");
+    background-repeat: no-repeat;
+    width: 30vh;
+    height:30vh;
+    background-size:cover ;
+    background-position: center;
+}
+.command
+{
+    background-color:rgb(206, 21, 21);
+    width: 30vh;
+    color: white;
+}
+.options
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.boutonModal
+{
+    margin-right: 175px;
+    margin-bottom: 2vh;
+}
+.takeout
+{
+background-image: url("../../../img/taekout.jpg");
+width: 10vh;
+height: 10vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+background-color: white;
+}
+.delivery
+{
+    background-image: url("../../../img/delivery.png");
+    width: 10vh;
+height: 10vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+
+.commandTitle
+{
+   color:rgb(206, 21, 21);
+}
+

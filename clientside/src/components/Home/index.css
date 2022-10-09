@@ -1,0 +1,132 @@
+.home .backgroundImg
+{
+    background-image:url("../../../img/bg.jpg") ;
+    background-size: cover;
+    height: 100vh;
+    
+    background-repeat:no-repeat;
+}
+.home .titre {
+    
+
+    color: white;
+    font-size: 100px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+.home .a{
+    border-radius: 30px;
+    color: rgb(213, 28, 28);
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    text-align: center;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5);
+    max-width: fit-content;
+        margin-left: 52vh;
+}
+
+.home .logo{
+    border-radius: 10px;
+    background-image: url("../../../img/logo.png");
+    width: 9vh;
+    height: 9vh;
+        background-size: contain;
+        background-position: center; 
+  
+    position:absolute;
+    margin-left: 72vh;
+    margin-top: 15px;
+    
+}
+
+.home .intro
+{
+  
+    border-radius: 10px;
+    border-color: white;
+    border-spacing: 5px;
+    border-width: 10vh;
+    margin-top: 7vh;
+    width: 120vh;
+    height: 60vh;
+    margin-left: 42vh;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.5);
+}
+
+.home .content
+{
+    display: flex;
+    margin-top: 7vh;
+    justify-content: space-around;
+}
+
+.home .shop
+{
+    background-image: url("../../../img/jjj.png");
+    width:25vh;
+    height: 25vh;
+        background-size: contain;
+        background-position: center; 
+    background-repeat: no-repeat;
+    flex-direction: row;
+    margin-right: 2vh;
+}
+
+.home .meal
+{
+    background-image: url("../../../img/meals.png");
+    width: 23vh;
+    height: 23vh;
+        background-size: contain;
+        background-position: center; 
+    background-repeat: no-repeat;
+    margin-top: 1vh;
+
+}
+
+.home .button
+{
+    
+    color: rgb(213, 28, 28);
+    border-radius: 20px;
+    margin-left:29vh;
+    margin-top: 5vh;
+
+}
+
+
+
+.bouton
+{
+    font-size:100px;
+    color: rgb(213, 28, 28)
+}
+
+
+
+.home .flx
+{
+    display: flex;
+}
+.home .nb1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 2vh;
+    font-size: 70px;
+margin-top: 8vh;
+color: white
+}
+.home .nb2
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    font-size: 70px;
+    color: white;
+    margin-top: 8vh;
+    margin-right: 3vh;
+}
+.titre
+{
+    color: red;
+}

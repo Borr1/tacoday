@@ -1,0 +1,197 @@
+html {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+    font-smooth: auto;
+    font-weight: 300;
+    line-height: 1.5;
+    
+  }
+  
+ 
+  
+  a {
+    text-decoration: none;
+  }
+  
+  figure {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 350px;
+    height: 450px;
+    padding: 20px 20px;
+    background-image: url("../../../img/taco.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+  }
+  figure:before, figure:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  figure:before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 0;
+  }
+  figure:after {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+  }
+  figure:hover {
+    background-size: 175%;
+  }
+  figure:hover:after {
+    content: "🌮";
+    background-color: rgba(241, 196, 15, 0.9);
+    color: white;
+    font-size: 72px;
+    z-index: 2;
+  }
+  figure:hover .date {
+    
+    bottom: -59px;
+  }
+  figure:hover figcaption {
+    
+    transform: translateY(10vh);
+  }
+  figure .date {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgba(241, 196, 15, 0.8);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border-radius: 5px;
+  }
+  figure .date span {
+    color: white;
+    line-height: 1;
+    
+  }
+  figure .date span:first-child {
+
+    font-family: "Source Code Pro", sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 5px;
+  }
+  figure .date span:last-child {
+    margin-top: 3px;
+    font-size: 20px;
+    
+  }
+  figure figcaption {
+    margin-top: 12px;
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    z-index: 1;
+  }
+
+ 
+  figure figcaption h4 {
+    color: white;
+    margin: 0 0 5px;
+    font-family: "Source Code Pro", sans-serif;
+    font-size: 32px;
+    line-height: 1.35;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  figure figcaption h4 > span {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(241, 196, 15, 0.8);
+  }
+ 
+
+.magasins .address{
+    position: relative;
+    top: 30vh;
+    right: 3vh;
+    max-width: 150px;
+    max-height: 30px;
+    overflow-wrap: break-word;
+    white-space:pre-wrap;
+    
+   
+}
+
+figure figcaption .address h5
+{
+    color:rgb(213, 28, 28);
+    font-size: 40px;
+    
+}
+.shops .logo
+{
+    border-radius: 8px;
+    background-image: url("../../../img/logo.png");
+    width:12vh;
+    height: 12vh;
+        background-size: contain;
+        background-position: center; 
+        top: 5vh;
+  
+    position:absolute;
+    
+  left: 2vh;
+}
+
+.minititre
+{
+    color: #292929;
+}
+
+
+
+.shops .backgroundImg
+{
+    background-image: url("../../../img/bg2.jpg");
+    background-size: cover;
+    height: 25vh;
+    background-repeat:no-repeat;
+    background-position: 0ex; 
+    
+}
+.magasins
+{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 5vh;
+}
+.backgroundImg2
+{
+    background-image: url("../../../img/shop.jpg");
+    width: 30vh;
+    height: 30vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
